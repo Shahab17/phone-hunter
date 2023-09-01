@@ -11,11 +11,22 @@
 </head>
 
 <body>
-    <header>
-        <h2 class="text-5xl">Phone Hunting</h2>
+    <header class="container mx-auto my-10">
+        <h2 class="text-5xl text-center">Phone Hunting</h2>
     </header>
-    <main>
+    <main class="container mx-auto">
+        
+        <section class="mb-10  ">
+            <input type="text" placeholder="Search..." class="input  w-full max-w-xs outline-none bg-red-50" />
+            <button onclick="handleSearch()" class="btn btn-active btn-accent">Search</button>
+        </section>
 
+        <!-- phones container -->
+        <section>
+            <div id="phones-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            </div>
+        </section>
     </main>
     <footer>
 
